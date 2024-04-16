@@ -24,7 +24,7 @@
 
     - name: Adding group to Docker
       shell:
-        usermod -aG docker janssenvalencia
+        usermod -aG docker cherwin
 
     - name: Enable/Restart Docker (Ubuntu)
       service:
